@@ -45,7 +45,7 @@
 
   <h3>Example (Input and output)</h3>
 
-  <p> With <tt>data.csv</tt> as dataset, and 3 regular expressions </p>
+  <p> With <tt>data.csv</tt> as dataset, and 3 regular expressions: </p>
   <pre>
       $ cat data.csv
 
@@ -58,7 +58,7 @@
       Alejandro,Gomez,123
   </pre>
 
-  <p> Note that 2 of 3 lines were filtered out for mismatches of 1 or
+  <p> Note that 2 of 3 row were filtered out for mismatches of 1 or
   more columns with their respective regular expression. </p>
 
   <h3>Clean code (10%)</h3>
@@ -103,7 +103,7 @@
     <p>Your submission has to include the following:</p>
 
     <ul>
-      <li><tt>SimAFA.hs</tt>, a Haskell module file with your solution for
+      <li><tt>HFilter.hs</tt>, a Haskell module file with your solution for
       the assignment.</li>
 
       <li>
@@ -122,7 +122,7 @@
 
           <li>GHC and Haskell platform versions used.</li>
 
-          <li>Information of any library used</li>
+          <li>Information of any library used.</li>
         </ul>
       </li>
     </ul>
@@ -136,20 +136,21 @@
 
     <li>You are to use the Haskell Platform 2014.2.0.0 or GHCi ≥ 7.8.3.</li>
 
-    <li>You can add class constraints to the type signature of
-    <code>accepts</code> if you need them.</li>
   </ul>
 
   <h3>Bibliography</h3>
 
-<ul style="text-align: justify;">
-  <li>Chinmay Narayan, Shibashis Guha and S.Arun-Kumar (2015).
-    <em>From Traces To Proofs: Proving Concurrent Program Safe</em>. CoRR.
-    Section 2.3. [<a href="http://arxiv.org/abs/1506.07635">link</a>].</li>
+  <ul>
+    <li>A good introduction to input and output with Haskell is
+      <a href="http://learnyouahaskell.com/input-and-output">
+        http://learnyouahaskell.com/input-and-output</a>.</li>
 
-</ul>
+    <li>A good introduction to ByteString and Regex is
+      <a href="http://book.realworldhaskell.org/read/efficient-file-processing-regular-expressions-and-file-name-matching.html">
+        Real World Haskell: Chapter 8</a>.</li>
+    </ul>
 
-  <hr/>
+    <hr/>
 
   <table style="width:100%">
     <tr>
