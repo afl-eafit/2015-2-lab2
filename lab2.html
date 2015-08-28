@@ -12,7 +12,7 @@
   <div style="text-align: center;">
     <h1>Programming lab 2: CSV dataset filter</h1>
 
-    <p><b>Submission deadline: Frida, September 25, 2015 (11:59 p.m.)</b></p>
+    <p><b>Submission deadline: Friday, September 25, 2015 (11:59 p.m.)</b></p>
   </div>
 
   <h3>TA: Alejandro Gómez-Londoño</h3>
@@ -30,9 +30,9 @@
 
     <li>(70%) Write a haskell program <tt>hfilter</tt> that given a
       dataset (in CSV format) and <i>n</i> regular expressions,
-      filters out any row whose <i>i</i>th column does not match
-      the <i>i</i>th regular expression completely, with 0 ≤ <i>i</i>
-      ≤ <i>n</i></li>
+      filters out any row whose <i>i</i>-th column does not match
+      the <i>i</i>-th regular expression completely, with 0 ≤ <i>i</i>
+      ≤ <i>n</i>.</li>
 
     <li>(10%) Annotate your source code using Haddock. Documentation
     should explain your solution for the assignment. Improve it
@@ -45,7 +45,7 @@
 
   <h3>Example (Input and output)</h3>
 
-  <p> With <tt>data.csv</tt> as dataset, and 3 regular expressions: </p>
+  <p> With <tt>data.csv</tt> as dataset, and three regular expressions: </p>
   <pre>
       $ cat data.csv
 
@@ -58,7 +58,7 @@
       Alejandro,Gomez,123
   </pre>
 
-  <p> Note that 2 of 3 row were filtered out for mismatches of 1 or
+  <p> Note that two of three rows were filtered out for mismatches of one or
   more columns with their respective regular expression. </p>
 
   <h3>Clean code (10%)</h3>
@@ -70,7 +70,7 @@
 
       <li>Has a consistent layout.</li>
 
-      <li>Has type signatures for everything (<tt>included</tt> where
+      <li>Has type signatures for everything (included <tt>where</tt>
       and <tt>let</tt> definitions).</li>
 
       <li>Has good comments.</li>
@@ -120,7 +120,7 @@
 
           <li>Information on how to use your program.</li>
 
-          <li>GHC and Haskell platform versions used.</li>
+          <li>GHC or Haskell platform versions used.</li>
 
           <li>Information of any library used.</li>
         </ul>
